@@ -1,0 +1,53 @@
+
+body{
+    margin-left:20% ;
+    margin-right: 20%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    flex-basis: 60%;
+    display: block;
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin-left: 5%;
+    color: purple;
+
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
+}
+
+h1{
+    font-family: 'Abril Fatface',cursive;
+}
+
+.text1{
+
+text-align: justify;
+color: purple;
+
+}
+
