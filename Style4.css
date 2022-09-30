@@ -1,0 +1,83 @@
+body
+{
+  background-image: url(macbook-pro-2020.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+font-weight: bold;
+}
+
+p
+{
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: bold;
+}
+
+h1
+{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.blog
+{
+    background-color: rgb(243, 188, 226);
+    padding: 20px;
+    opacity: 0.8;
+    text-align: left;
+   background-size: cover;
+   width: 1000px;
+    margin: auto;
+    font-size: 20px;
+   
+}
+
+.taille
+{
+  width: 60%;
+    height: 25px;
+}
+
+.input
+{
+  width: 60%;
+  height: 25px;
+}
+
+textarea
+{
+  width: 60%;
+  height: 300px;
+}
+
+.input2
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input3
+{
+  width: 60%;
+  height: 25px;
+}
+  
+#input4
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input5
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input6
+{
+  width: 60%;
+  height: 25px;
+}
