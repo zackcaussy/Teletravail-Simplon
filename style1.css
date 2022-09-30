@@ -20,84 +20,69 @@ body{
 
 .page .bienvenue {
     flex-basis: 50%;
-    order: 3;
 }
 .page .illustration{
     flex-basis: 40%;
-    order: 4;
 }
 
 /*ligne2*/
 
 .page .a{
     flex-basis: 45%;
-    order: 5;
 }
 .page .b{
     flex-basis: 45%;
-    order: 6;
 }
 .page .textea{
     flex-basis: 45%;
-    order: 7;
 }
 .page .texteb{
     flex-basis: 45%;
-    order: 8;
 }
 
 /*ligne3*/
 
 .page .c{
     flex-basis: 45%;
-    order: 9;
 }
 .page .d{
     flex-basis: 45%;
-    order: 10;
 }
 .page .textec{
     flex-basis: 45%;
-    order: 11;
 }
 .page .texted{
     flex-basis: 45%;
-    order: 12;
 }
 
 /*ligne4*/
 
 .page .e{
     flex-basis: 45%;
-    order: 13;
 }
 .page .f{
     flex-basis: 45%;
-    order: 14;
 }
 .page .textee{
     flex-basis: 45%;
-    order: 15;
 }
 .page .textef{
     flex-basis: 45%;
-    order: 16;
 }
-
 
 /*elements*/
 
 h1{
-    font-size: 3.2em;
+    font-size: 2.8em;
     font-family: 'Abril Fatface', cursive;
     color: #d05270;
 }
 h2{
-    font-size: 2.7em;
+    font-size: 2.8em;
     color: #424242;
 }
 h3{
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #d05270;
 }
 .bienvenue{
@@ -150,26 +135,21 @@ h3{
 .textef{
     margin-bottom: 50px;
 }
-#date{
+.date{
     color: #424242;
     text-decoration: none;
     font-style: bold;
 }
-a{
-    color: grey;
-    text-decoration: none;
-}
-.nav{
-    word-spacing: 30px;
-}
 #propos{
     word-spacing: normal;
 }
-#esp{
+.esp{
     color: #d05270;
+    text-decoration: none;
 }
-span{
+.savoir{
     text-decoration: underline;
+    
 }
 
 /*boutons*/
@@ -179,60 +159,65 @@ span{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.boutons{
-    flex-basis: 100%;
+.twitter img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
 }
-button{
-    border: none;
-    padding: 2% 9% 2% 5%;
+.linkedin img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.medium img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.twitter{
     color: white;
-    vertical-align: middle;
-}
-button img{
-    vertical-align: middle;
-    padding-right: 12%;
-}
-.twitter{
+    font-size: small;
+    text-decoration: none;
     background-color: #03a9f4;
-}
-.linkedin{
-    background-color: #007ab9;
-}
-.medium{
-    background-color: black;
-}
-.twitter{
+    display: inline-block;
+    vertical-align: middle;
     width: 31.2%;
     margin-right: 1.1%;
     margin-left: 0;
 }
 .linkedin{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: #007ab9;
+    display: inline-block;
+    vertical-align: middle;
     width: 31.2%;
     margin-right: 2.2%;
     margin-left: 1.1%;
 }
 .medium{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
     width: 31.2%;
     margin-left: 0;
     margin-right: 0;
 }
 
-/*page 2*/
+/*survol souris*/
 
-.page #ordip2{
-    flex-basis: 100%;
+.twitter:hover{
+    opacity: 0.9;
 }
-#h1p2{
-    font-size: 3em;
-    color: #d05270;
+.linkedin:hover{
+    opacity: 0.9;
 }
-#h2p2{
-    font-size: 2.3em;
-    color: #3a0ca3;
+.medium:hover{
+    opacity: 0.9;
 }
-#h3p2{
-    font-size: 1.5em;
-    color: #3a0ca3;
+.esp:hover{
+    opacity: 0.8;
 }
 
 
