@@ -1,0 +1,44 @@
+header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    flex-basis: 60%;
+    display: block;
+    text-align: right;
+    font-size: x-small;
+}
+
+ul{
+    list-style: none; 
+    margin-left: 26em;
+    margin-right: 26em;
+    
+}
+
+li{
+    display: inline;
+    margin-left: 5%;
+    color: purple;    
+}
+
+.contenu{
+    text-align: justify;
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
+}
+
+p{
+    font-size: 13px;
+}
+
+#squedrong{
+    margin-left: 20%;
+}

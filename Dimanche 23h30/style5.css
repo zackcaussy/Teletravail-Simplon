@@ -1,0 +1,476 @@
+body{
+    margin-left:20% ;
+    margin-right: 20%;
+    margin-bottom: 40%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    flex-basis: 60%;
+    display: block;
+    text-align: right;
+    font-size: x-small;
+}
+
+ul{
+    list-style: none; 
+}
+
+li{
+    display: inline;
+    margin-left: 5%;
+    color: purple;    
+}
+
+.contenu{
+    text-align: justify;
+    font-size: 13px;
+
+}
+
+#demotext {
+	font-size: 100px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url(https://img.freepik.com/premium-photo/night-starry-sky-bright-purple-blue-galaxy-horizontal-background-3d-illustration-milky-way-universe_118047-11036.jpg?w=1800);
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
+}
+
+#Photo_ordi{
+    flex-basis: 100%;
+}
+
+
+p{
+    font-size: 13px;
+}
+
+
+
+.item1:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+.item2:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+
+.item3:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+
+.item4:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+
+.item5:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+
+.item6:hover{
+    transform: scale(1.1);
+    color: rgb(7, 48, 110);
+
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo img{
+    width: 20px;
+}
+footer section{
+    flex-basis: 50%;
+    order: 1;
+    font-size: 80%;
+    font-weight: lighter;
+
+}
+#paragraphe{
+    font-size: x-small;
+}
+#bt{
+    color: #d05270;
+    font-weight: bolder;
+}
+
+
+
+#illustration{
+    order: 2;
+    flex-basis: 35%;
+    width: 35%;
+    height: 85%;
+}
+
+#paragraphe{
+    margin-bottom: 20%;
+}
+#Photo_ordi{
+    width: 100%;
+}
+
+#linkedin img{
+    width: 20px;
+}
+
+
+#twitter{
+
+display: inline-block;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+background-color: #1DA1F2;
+outline: none;
+width: 20%;
+
+}
+#linkedin{
+
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0072b1;
+    outline: none;
+    width: 20%;
+
+}
+
+#medium{
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    outline: none;
+    width: 20%;
+}
+
+#medium img{
+    width: 10px;
+}
+
+
+
+
+.page{
+    justify-content: space-between;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*ligne1*/
+
+.page .bienvenue {
+    flex-basis: 50%;
+}
+.page .illustration{
+    flex-basis: 40%;
+}
+
+/*ligne2*/
+
+.page .a{
+    flex-basis: 48%;
+}
+.page .b{
+    flex-basis: 48%;
+}
+.page .textea{
+    flex-basis: 48%;
+}
+.page .texteb{
+    flex-basis: 48%;
+}
+
+/*ligne3*/
+
+.page .c{
+    flex-basis: 48%;
+}
+.page .d{
+    flex-basis: 48%;
+}
+.page .textec{
+    flex-basis: 48%;
+}
+.page .texted{
+    flex-basis: 48%;
+}
+
+/*ligne4*/
+
+.page .e{
+    flex-basis: 48%;
+}
+.page .f{
+    flex-basis: 48%;
+}
+.page .textee{
+    flex-basis: 48%;
+}
+.page .textef{
+    flex-basis: 48%;
+}
+
+/*elements*/
+
+h1{
+    font-size: 2.8em;
+    font-family: 'Abril Fatface', cursive;
+    color: #d05270;
+}
+h2{
+    font-size: 2.8em;
+    color: #424242;
+}
+h3{
+    font-size: 1.2em;
+    color: #d05270;
+}
+.bienvenue{
+    margin-bottom: 70px;
+}
+.illustration img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20%;
+}
+.a img{
+    width: 100%;
+    height: 100%;
+}
+.b img{
+    width: 100%;
+    height: 100%;
+}
+.textea{
+    margin-bottom: 50px;
+}
+.texteb{
+    margin-bottom: 50px;
+}
+.c img{
+    width: 100%;
+    height: 100%;
+}
+.d img{
+    width: 100%;
+    height: 100%;
+}
+.textec{
+    margin-bottom: 50px;
+}
+.texted{
+    margin-bottom: 50px;
+}
+.e img{
+    width: 100%;
+    height: 100%;
+}
+.f img{
+    width: 100%;
+    height: 100%;
+}
+.textee{
+    margin-bottom: 50px;
+}
+.textef{
+    margin-bottom: 50px;
+}
+.date{
+    color: #424242;
+    text-decoration: none;
+    font-style: bold;
+}
+#propos{
+    word-spacing: normal;
+}
+.esp{
+    color: #d05270;
+    text-decoration: none;
+}
+.savoir{
+    text-decoration: underline;
+    
+}
+
+/*boutons*/
+
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.twitter img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.linkedin img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.medium img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.twitter{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: #03a9f4;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-right: 1.1%;
+    margin-left: 0;
+}
+.linkedin{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: #007ab9;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-right: 2.2%;
+    margin-left: 1.1%;
+}
+.medium{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*survol souris*/
+
+.twitter:hover{
+    opacity: 0.9;
+}
+.linkedin:hover{
+    opacity: 0.9;
+}
+.medium:hover{
+    opacity: 0.9;
+}
+.esp:hover{
+    opacity: 0.8;
+}
+
+main{
+    
+    background-image: url(https://raw.githubusercontent.com/zackcaussy/Teletravail-Simplon/main/photo/macbook-pro-2020.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.formulaire
+{
+    background-color: rgb(243, 188, 226);
+    padding: 20px;
+    opacity: 0.8;
+    color: white;
+    text-align: left;
+    background-size: cover;
+    margin: auto;
+    
+   
+}
+
+.taille
+{
+  width: 60%;
+    height: 25px;
+}
+
+.input
+{
+  width: 60%;
+  height: 25px;
+}
+
+textarea
+{
+  width: 60%;
+  height: 300px;
+}
+
+.input2
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input3
+{
+  width: 60%;
+  height: 25px;
+}
+  
+#input4
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input5
+{
+  width: 60%;
+  height: 25px;
+}
+
+.input6
+{
+  width: 60%;
+  height: 25px;
+}

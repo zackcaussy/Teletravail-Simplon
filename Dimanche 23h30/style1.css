@@ -1,0 +1,221 @@
+body{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    margin-bottom: 20%;
+}
+
+/*page*/
+
+.page{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*ligne1*/
+
+.page .bienvenue {
+    flex-basis: 50%;
+}
+.page .illustration{
+    flex-basis: 40%;
+}
+
+/*ligne2*/
+
+.page .a{
+    flex-basis: 45%;
+}
+.page .b{
+    flex-basis: 45%;
+}
+.page .textea{
+    flex-basis: 45%;
+}
+.page .texteb{
+    flex-basis: 45%;
+}
+
+/*ligne3*/
+
+.page .c{
+    flex-basis: 45%;
+}
+.page .d{
+    flex-basis: 45%;
+}
+.page .textec{
+    flex-basis: 45%;
+}
+.page .texted{
+    flex-basis: 45%;
+}
+
+/*ligne4*/
+
+.page .e{
+    flex-basis: 45%;
+}
+.page .f{
+    flex-basis: 45%;
+}
+.page .textee{
+    flex-basis: 45%;
+}
+.page .textef{
+    flex-basis: 45%;
+}
+
+/*elements*/
+
+h1{
+    font-size: 2.8em;
+    font-family: 'Abril Fatface', cursive;
+    color: #d05270;
+}
+h2{
+    font-size: 2.8em;
+    color: #424242;
+}
+h3{
+    font-size: 1.2em;
+    color: #d05270;
+}
+.bienvenue{
+    margin-bottom: 70px;
+}
+.illustration img{
+    width: 80%;
+    height: 80%;
+    margin-left: 20%;
+}
+.a img{
+    width: 100%;
+    height: 100%;
+}
+.b img{
+    width: 100%;
+    height: 100%;
+}
+.textea{
+    margin-bottom: 50px;
+}
+.texteb{
+    margin-bottom: 50px;
+}
+.c img{
+    width: 100%;
+    height: 100%;
+}
+.d img{
+    width: 100%;
+    height: 100%;
+}
+.textec{
+    margin-bottom: 50px;
+}
+.texted{
+    margin-bottom: 50px;
+}
+.e img{
+    width: 100%;
+    height: 100%;
+}
+.f img{
+    width: 100%;
+    height: 100%;
+}
+.textee{
+    margin-bottom: 50px;
+}
+.textef{
+    margin-bottom: 50px;
+}
+.date{
+    color: #424242;
+    text-decoration: none;
+    font-style: bold;
+}
+#propos{
+    word-spacing: normal;
+}
+.esp{
+    color: #d05270;
+    text-decoration: none;
+}
+.savoir{
+    text-decoration: underline;
+    
+}
+
+/*boutons*/
+
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.twitter img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.linkedin img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.medium img{
+    vertical-align: middle;
+    padding: 6% 8% 6% 20%;
+}
+.twitter{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: #03a9f4;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-right: 1.1%;
+    margin-left: 0;
+}
+.linkedin{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: #007ab9;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-right: 2.2%;
+    margin-left: 1.1%;
+}
+.medium{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+    width: 31.2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*survol souris*/
+
+.twitter:hover{
+    opacity: 0.9;
+}
+.linkedin:hover{
+    opacity: 0.9;
+}
+.medium:hover{
+    opacity: 0.9;
+}
+.esp:hover{
+    opacity: 0.8;
+}
