@@ -1,0 +1,144 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Montserrat", sans-serif;
+
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("https://wallpapercave.com/wp/wp6581093.jpg");
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url("https://raw.githubusercontent.com/zackcaussy/Teletravail-Simplon/main/photo/Ordi.webp");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("https://raw.githubusercontent.com/zackcaussy/Teletravail-Simplon/main/photo/macbook-pro-2020.jpeg");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: rgb(115, 32, 138);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Montserrat", sans-serif;
+    color: #111;
+    text-align: center;
+}
+
+.position1{
+    color: rgb(198, 90, 184);
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+.position2{
+    position:relative;
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+
+}
+
+.caption{
+    background-color:transparent;
+    font-size:25px;
+    color: #f7f7f7;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+header {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    flex-basis: 60%;
+    display: block;
+    text-align: right;
+    font-size: x-small;
+}
+
+ul {
+    list-style: none;
+    margin-left: 26em;
+    margin-right: 26em;
+
+}
+
+li {
+    display: inline;
+    margin-left: 5%;
+
+}
+
+.contenu {
+    text-align: justify;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+    word-spacing: 2px;
+    
+}
+
+
+p {
+    font-size: 13px;
+    margin-left: 15em;
+    margin-right: 16em;
+}
+
+#squedrong {
+    margin-left: 17em;
+    
+}
