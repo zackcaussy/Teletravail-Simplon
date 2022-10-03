@@ -67,42 +67,16 @@ p{
     font-size: 13px;
 }
 
-
-
-.item1:hover{
-    transform: scale(1.1);
-    color: rgb(7, 48, 110);
-
-}
-.item2:hover{
-    transform: scale(1.1);
-    color: rgb(7, 48, 110);
-
+.item{
+    margin-bottom: 20px;
 }
 
-.item3:hover{
+.item:hover{
     transform: scale(1.1);
     color: rgb(7, 48, 110);
 
 }
 
-.item4:hover{
-    transform: scale(1.1);
-    color: rgb(7, 48, 110);
-
-}
-
-.item5:hover{
-    transform: scale(1.1);
-    color: rgb(7, 48, 110);
-
-}
-
-.item6:hover{
-    transform: scale(1.1);
-    color: rgb(7, 48, 110);
-
-}
 
 footer{
     display: flex;
